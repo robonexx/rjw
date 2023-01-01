@@ -1,0 +1,19 @@
+@use '../base' as *;
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    height: calc(100% - 10vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    overflow: hidden;
+    background-color: $color-bg;
+    z-index: 1000;
+
+    h4 {
+        font-family: $font-base;
+        color: $color-client-1;
+    }
+}
