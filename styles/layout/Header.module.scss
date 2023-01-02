@@ -17,7 +17,7 @@
 
     h1 {
         font-family: $font-base;
-        font-size: $font-size-xl;
+        font-size: clamp(1.6rem, 3vw, $font-size-xl);
         color: $color-client-3;
     }
 
