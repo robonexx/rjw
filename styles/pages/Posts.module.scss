@@ -1,0 +1,23 @@
+.posts_page {
+    margin: 20vh auto 2rem;
+    padding: 2rem 1rem;
+    min-height: 90vh;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3f3d3d;
+    color: rgb(90, 164, 185);
+
+    h1 {
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    p  {
+        color: white;
+        font-size: clamp(1rem, 1.4vw, 2rem);
+    }
+}

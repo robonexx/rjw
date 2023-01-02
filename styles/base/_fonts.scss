@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-
+/* 
 @font-face {
     font-family: CaviarDreams;
     src: url("../../app/fonts/CaviarDreams.ttf");
@@ -12,13 +12,11 @@
 @font-face {
     font-family: 'SourceSansPro';
     src: url("../../app/fonts/SourceSansPro-Regular.otf"); 
-  }
+  } */
 
 
 $font-base: 'Montserrat', sans-serif;
-$font-base-b: 'SourceSansPro', sans-serif;
-$font-alt: CaviarDreams, sans-serif;
-$font-alt-bold: 'CaviarDreamsBold', sans-serif;
+
 $font-default: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
