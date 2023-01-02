@@ -1,5 +1,4 @@
 import styles from '../styles/pages/Home.module.scss'
-import Link from 'next/link';
 import getPostsData from '../components/lib/getPostsData'
 import PostPreview from '../components/PostPreview';
 
