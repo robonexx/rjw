@@ -14,7 +14,9 @@ const HomePage = () => {
     return (        
     <div className={styles.main}>
             <h1>PreViews</h1>
-            <div>{ postPreviews}</div>
+            <div className={styles.container}>
+                {postPreviews}
+            </div>
     </div>
     )
 }

@@ -26,9 +26,12 @@ const ContentPage = (props: any) => {
     const post = getPostsContent(slug)
     return (
         <>
-            <div  className={styles.posts_page} key={slug}>
+            <div className={styles.posts_page} key={slug}>
+                <div className={styles.post}>
+
             <h1>{post.data.title}</h1>
             <Markdown>{post.content}</Markdown>
+                </div>
             </div>
         </>
     )
