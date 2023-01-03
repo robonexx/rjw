@@ -1,32 +1,28 @@
+
 export const NavContent = [
   {
-    title: 'Came from hiphop',
-    newtitle: '- & WE DON´T STOP',
+    title: 'Home',
+    newtitle: '- where we live',
     url: '/',
   },
   {
-    title: 'THE 80´s was rockin',
-    newtitle: '- Dope',
-    url: '/components',
+    title: 'About',
+    newtitle: '- ;) i see U',
+    url: '/',
   },
   {
-    title: '1990´s was Fresh',
-    newtitle: '- Golden Era!!!',
-    url: '/page3',
+    title: 'Projects',
+    newtitle: '- The few I have is done with heart',
+    url: '/',
   },
   {
-    title: '2000´s was Hot',
-    newtitle: '- Yeah buddy',
-    url: '/page4',
+    title: 'Editorials',
+    newtitle: '- So You want to read my thoughts eh?',
+    url: '/',
   },
   {
-    title: '2010 show stoppin',
-    newtitle: '- Get it!',
+    title: 'Contact',
+    newtitle: '- E.T phone... home! Just kidding waiting...',
     url: '/contact',
-  },
-  {
-    title: '2023... Cash is King',
-    newtitle: '- Get that Money',
-    url: '/',
   },
 ];

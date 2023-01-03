@@ -1,5 +1,5 @@
 import styles from '../styles/pages/Home.module.scss'
-import getPostsData from '../components/lib/getPostsData'
+import getPostsData from '../data/getPostsData'
 import PostPreview from '../components/PostPreview';
 
 const HomePage = () => {

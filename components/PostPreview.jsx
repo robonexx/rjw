@@ -1,6 +1,4 @@
 import Link from "next/link"
-/* import { PostInterface } from "./PostInterface" */
-
 import styles from './PostPreviews.module.scss'
 
 const PostPreview = (props) => {

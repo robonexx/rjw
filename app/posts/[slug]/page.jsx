@@ -2,7 +2,7 @@ import styles from '../../../styles/pages/Posts.module.scss'
 import fs from 'fs'
 import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter'
-import getPostsData from '../../../components/lib/getPostsData';
+import getPostsData from '../../../data/getPostsData';
 import Link from 'next/link';
 
 
