@@ -8,17 +8,13 @@ import './Navbar.scss';
 export default function NavBar() {
   return (
     <div className='nav'>
-    {/*   <div className='nbbg'></div>
-      <span className='custom_btn'>
-        <a href='/'>Home</a>
-      </span> */}
       <ul>
         {NavContent.map((l, i) => (
           <motion.li
             key={i}
             initial={{ opacity: 0, y: i % 2 === 0 ? -100 : 100 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: i * 0.1 }}
+            transition={{ duration: 0.4, delay: i * 0.1 }}
           >
             <a href={l.url} data-text={l.title + l.newtitle}>
               {l.title}

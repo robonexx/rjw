@@ -3,9 +3,10 @@ import fs from 'fs'
 import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter'
 import getPostsData from '../../../components/lib/getPostsData';
+import Link from 'next/link';
 
 
-const getPostsContent = (slug: string) => {
+const getPostsContent = (slug) => {
     const folder = "posts/";
     const file = `${folder}${slug}.md`;
     const content = fs.readFileSync(file, "utf8");
@@ -21,17 +22,17 @@ export const generateStaticParams = async () => {
 }
 
 
-const ContentPage = (props: any) => {
+const ContentPage = (props) => {
     const slug = props.params.slug;
     const post = getPostsContent(slug)
     return (
         <>
             <div className={styles.posts_page} key={slug}>
+                <Link href="/"><span>{ '<' }</span>Go Back </Link> 
                 <div className={styles.post}>
-
-            <h1>{post.data.title}</h1>
-            <Markdown>{post.content}</Markdown>
-                </div>
+                    <h1>{post.data.title}</h1>
+                        <Markdown>{post.content}</Markdown>
+                    </div>
             </div>
         </>
     )

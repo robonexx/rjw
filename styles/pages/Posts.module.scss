@@ -10,6 +10,32 @@
     background-color: #3f3d3d;
     color: rgb(90, 164, 185);
 
+    a {
+        text-decoration: none;
+        position: absolute;
+        top: 10vh;
+        left: 2rem;
+        padding: 0.5rem 1rem;
+        background-color: rgb(24, 127, 127);
+        color: rgb(211, 209, 209);
+        transition: all 0.3s ease;
+
+        &:hover {
+            color: aliceblue;
+            background-color: palevioletred;
+
+            span {
+                color: white;
+            }
+        }
+
+        span {
+            padding: 0 0.5rem 0 0;
+            color: black;
+            font-size: 1rem;
+        }
+    }
+
     .post {
         margin: 0 auto;
         max-width: 70%;
