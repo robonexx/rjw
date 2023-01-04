@@ -1,6 +1,8 @@
 // calculated that if i use transform scale I have to also 
 // count how many pixels i have to move the theme element 
 
+@use '../../styles/base/' as *;
+
 .theme {
     position: fixed;
     top: -12rem;

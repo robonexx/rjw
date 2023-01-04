@@ -1,4 +1,4 @@
-import styles from '../styles/pages/Home.module.scss'
+import '../styles/pages/Home.scss'
 import getPostsData from '../data/getPostsData'
 import PostPreview from '../components/PostPreview';
 
@@ -11,9 +11,9 @@ const HomePage = () => {
     ));
 
     return (        
-    <div className={styles.main}>
+    <div className='main'>
             <h1>PreViews</h1>
-            <div className={styles.container}>
+            <div className='container'>
                 {postPreviews}
             </div>
     </div>

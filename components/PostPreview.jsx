@@ -1,10 +1,10 @@
 import Link from "next/link"
-import styles from './PostPreviews.module.scss'
+import './PostPreviews.scss'
 
 const PostPreview = (props) => {
     
     return (
-        <div  key={props.title} className={styles.card}>
+        <div  key={props.title} className='card'>
         <Link href={`/posts/${props.slug}`}>
             <h2 >{props.title}</h2>
             <p>{props.subtitle}</p>

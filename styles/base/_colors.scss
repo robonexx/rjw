@@ -1,18 +1,55 @@
-// colors client
-$color-client-1:#dedede;
-$color-client-2: #a1a1a1;
-$color-client-3: #181818;
+// colors base light / dark
+$color-1: #222222;
+$color-2: #383d44;
+$color-p: #7a7b82;
+$color-bg: #eceff1;
+$color-bg-alt: #dcd5df;
+$color-link: #adefd1ff;
+$color-card-bg: darken($color-bg-alt, 5%);
 
-$color-bg: #232328;
+
+$color-dark-1: #eaeaea;
+$color-dark-2: #d1d1d1;
+$color-dark-p: #e1dedc;
+$color-dark-bg: #37474f;
+$color-dark-bg-alt: #1b1b1b;
+$color-link-dark: #00203fff;
+$color-card-dark-bg: darken($color-dark-bg-alt, 3%);
+
+// colors client, special colors
+$color-client-1: rgb(107, 224, 185);
+$color-client-2: #bc7fd4;
+$color-client-3: rgb(50, 136, 144);
+
+
+$color-black: #000;
+$color-white: #fff;
 
 // dimmed
 $color-dimmed: #888;
 
-// color scrollbar
-$color-scrollbar-bg: color-client-2;
-$color-li-arrow: #61505A;
-
+// shadows 
 $box-shadow: rgba(0,0,0,0.335);
+$box-shadow-hover: rgba(0,0,0,0.235);
 
-// cards
-$color-card-bg: #000;
+// color scrollbar
+$color-scrollbar-bg: $color-dark-bg;
+$color-li-arrow: $color-dark-1;
+
+
+// color gradients
+$color-gradient-gold: linear-gradient(120deg, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+$color-gradient-purplish: linear-gradient(120deg, #574650, #E6D5DF, #61505A, #DDCCD6, #6F5E68);
+$color-gradient-black: linear-gradient(120deg, $color-p, $color-2, $color-1, $color-dark-bg, $color-dark-bg-alt);
+$color-gradient-white: linear-gradient(120deg, $color-1, $color-2, $color-1, $color-p, $color-2);
+
+$color-gradient: linear-gradient(120deg, rgb(49, 49, 49), #b4b4b4, #9b9b9b, #ffffff, #000000);
+
+
+
+// svg colors
+$color-yellow: #ffc13b;
+$color-orange: #ff6e40;
+$color-blue: #005A9C;
+$color-red: #EF3E42;
+$color-gray: #A5ACAF;

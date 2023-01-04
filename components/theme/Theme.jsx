@@ -4,15 +4,15 @@ import { useSpring, animated } from "react-spring";
 
 import "./Theme.scss";
 
-export default function Theme({ lights, lightsOnOff }) {
+export default function Theme({ lights, setLights }) {
   /* const [lights, setLights] = useState(false) */
 
   const { x } = useSpring({ duration: 300, x: lights ? 1 : 0 });
   const themeRef = useRef();
-  /* const lightsOnOff = () => {
+
+  const toggleLights = () => {
           setLights(!lights)
-          lights ? bgRef.current.style.backgroundColor = '#fafafa' : bgRef.current.style.backgroundColor = '#121212'
-      } */
+      }
 
   useEffect(() => {
     if (window.innerWidth > 959) {
@@ -92,7 +92,7 @@ export default function Theme({ lights, lightsOnOff }) {
             </defs>
           </svg>
           <svg
-            onClick={lightsOnOff}
+            onClick={toggleLights}
             className="light"
             fill={!lights ? "#e9c915" : "#121212"}
             xmlns="http://www.w3.org/2000/svg"

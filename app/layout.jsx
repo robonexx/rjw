@@ -8,23 +8,12 @@ import NavButton from '../components/ui/navbutton/NavButton'
 import Theme from '../components/theme/Theme'
 
 
-/* type Props = { children:typeof useRef } */
-
 export default function RootLayout({
   children,
 }) {
   const [menu, setMenu] = useState(false)
   const [lights, setLights] = useState(false);
-  const bgRef = useRef()
-
-  const lightsOnOff = () => {
-    setLights(!lights);
-    lights
-      ? (bgRef.current.style.backgroundColor = "#eee9e3")
-      : (bgRef.current.style.backgroundColor = "#282422");
-  };
-
-  
+  const bgRef = useRef()  
 
   const handleClick = () => {
     setMenu(!menu)
@@ -33,9 +22,9 @@ export default function RootLayout({
   return (
     <html>
       <head />
-      <body ref={bgRef}>
+      <body ref={bgRef} className={lights ? 'darkmode' : 'lightmode'}>
         <Header />
-        <Theme lights={lights} setLights={setLights} lightsOnOff={lightsOnOff} />
+        <Theme lights={lights} setLights={setLights} /* lightsOnOff={lightsOnOff} */ />
       {
         !menu ? null : <Navbar />
       }

@@ -1,9 +1,11 @@
-import styles from '../../../styles/pages/Posts.module.scss'
 import fs from 'fs'
 import Markdown from 'markdown-to-jsx';
 import matter from 'gray-matter'
 import getPostsData from '../../../data/getPostsData';
 import Link from 'next/link';
+
+// styles
+import '../../../styles/pages/Posts.scss'
 
 
 const getPostsContent = (slug) => {
@@ -27,9 +29,9 @@ const ContentPage = (props) => {
     const post = getPostsContent(slug)
     return (
         <>
-            <div className={styles.posts_page} key={slug}>
+            <div className='posts_page' key={slug}>
                 <Link href="/"><span>{ '<' }</span>Go Back </Link> 
-                <div className={styles.post}>
+                <div className='post'>
                     <h1>{post.data.title}</h1>
                         <Markdown>{post.content}</Markdown>
                     </div>
