@@ -30,11 +30,11 @@ const ContentPage = (props) => {
     return (
         <>
             <div className='posts_page' key={slug}>
-                <Link href="/"><span>{ '<' }</span>Go Back </Link> 
                 <div className='post'>
-                    <h1>{post.data.title}</h1>
-                        <Markdown>{post.content}</Markdown>
-                    </div>
+                    <Link href="/"><span>{ '<' }</span>Go Back </Link> 
+                        <h1>{post.data.title}</h1>
+                            <Markdown>{post.content}</Markdown>
+                        </div>
             </div>
         </>
     )
