@@ -29,7 +29,7 @@ const ContentPage = (props) => {
     const post = getPostsContent(slug)
     return (
         <>
-            <div className='posts_page' key={slug}>
+            <div className='post_container' key={slug}>
                 <div className='post'>
                     <Link href="/"><span>{ '<' }</span>Go Back </Link> 
                         <h1>{post.data.title}</h1>

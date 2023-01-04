@@ -21,6 +21,11 @@
         color: $color-2;
     }
 
+    
+    .post_container {
+        background-color: $color-card-bg;
+    }
+
     /* a {
         color: $color-link;
         background-color: $color-1;
@@ -53,6 +58,10 @@
     .card {
         background-color: $color-card-dark-bg;
         color: $color-dark-2;
+    }
+
+    .post_container {
+        background-color: $color-card-dark-bg;
     }
 /* 
     a {
