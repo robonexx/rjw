@@ -1,7 +1,7 @@
 @use './colors' as *;
 
 .lightmode {
-    background-color: $color-bg;
+    background-color: $color-bg-alt;
     color: $color-1;
 
     h1 {
@@ -21,10 +21,6 @@
         color: $color-2;
     }
 
-    
-    .post_container {
-        background-color: $color-card-bg;
-    }
 
     /* a {
         color: $color-link;
@@ -40,7 +36,7 @@
 
 .darkmode {
 
-    background-color: $color-dark-bg;
+    background-color: $color-dark-bg-alt;
     color: $color-dark-1;
 
     h1 {
@@ -48,7 +44,7 @@
     }
 
     h2 {
-        color: $color-dark-2
+        color: $color-dark-1;
     }
 
     p {

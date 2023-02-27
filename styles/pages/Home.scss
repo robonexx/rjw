@@ -1,20 +1,16 @@
-@use '../base/' as *;
+@use '../base/' as*;
 
 .main {
-  margin: 5rem auto 0;
-  padding: 2rem 0;
-  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
   min-height: 100vh;  
   position: relative;
   display: flex;
   flex-direction: column;
 
-  @media screen and (max-width: 768px) {
-    width: 90%;
-  }
 
   h1 {
-    
     font-size: $font-size-xl;
     background-color: rgb(212, 144, 212);
     padding: 0.5rem 1rem;

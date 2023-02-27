@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Burta",
+      "lastName": "Urta",
+      "age": "58",
+      "city": "Washington",
+      "country": "USA",
+      "email": "burta@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Kayser",
+      "lastName": "Zoze",
+      "age": "40",
+      "city": "London",
+      "country": "United Kingdom",
+      "email": "keyser@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Tron",
+      "lastName": "Banan",
+      "age": "22",
+      "city": "Stockholm",
+      "country": "Sweden",
+      "email": "tron@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Henke",
+      "lastName": "Börjesson",
+      "age": "32",
+      "city": "Göteborg",
+      "country": "Sweden",
+      "email": "henke@gmail.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

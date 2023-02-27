@@ -16,9 +16,9 @@
   background-color: $color-dark-bg-alt;
   transition: all 0.4s ease;
 
-  > ul {
+   ul {
     margin: 0 auto;
-    padding: 5rem 0;
+    padding: 0;
     list-style-type: none;
     height: 100%;
     width: 100%;
@@ -27,26 +27,29 @@
     background: transparent;
     z-index: 2;
 
-    > li {
+     li {
       position: relative;
       width: 100%;
       padding: 0.5rem 0;
       overflow: hidden;
-      font-family: $font-base;
-      line-height: 3.5rem;
+      font-family: $font;
       display: flex;
       align-items: center;
       justify-content: flex-start;
       background-color: $color-dark-bg-alt;
       border-bottom: 1px solid rgb(221, 221, 221);
 
+      &:nth-child(1) {
+        margin-top: 4rem;
+      }
+
       &:hover {
         cursor: pointer;
 
         a::before {
           width: 100%;
-          -webkit-text-stroke: 1px rgb(255, 255, 255);
-          color: white;
+          -webkit-text-stroke: none;
+          color: $color-orange;
           overflow: hidden;
         }
       }
@@ -57,8 +60,9 @@
         padding: 0.5rem 1rem;
         font-size: clamp(1rem, 3vw, 3rem);
         font-weight: $font-bold;
+        line-height: 4rem;
         color: transparent;
-        -webkit-text-stroke: 0.01rem rgba(247, 244, 244, 0.87);
+        -webkit-text-stroke: 0.1rem $color-orange;
 
         &::before {
           content: attr(data-text);

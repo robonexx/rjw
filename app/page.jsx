@@ -1,9 +1,9 @@
 import '../styles/pages/Home.scss'
 import getPostsData from '../data/getPostsData'
 import PostPreview from '../components/PostPreview';
-import Hero from '../components/hero/Hero'
+import Hero from '../components/hero/Hero';
 
-const HomePage = () => {
+const HomePage = ({lights}) => {
 
     const postData = getPostsData()
     const postPreviews = postData.map((post) => (
@@ -13,7 +13,7 @@ const HomePage = () => {
 
     return (        
         <div className='main'>
-            <Hero />
+            <Hero ligths={lights} />
             <h2>Editorial previews</h2>
             <div className='container'>
                 {postPreviews}

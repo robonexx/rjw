@@ -2,22 +2,22 @@
 $color-1: #222222;
 $color-2: #383d44;
 $color-p: #41465f;
-$color-bg: #eceff1;
+$color-bg: #1d1b1b;
 $color-bg-alt: #dbd8dd;
 $color-link: #adefd1ff;
 $color-card-bg: darken($color-bg-alt, 5%);
 
 
 $color-dark-1: #eaeaea;
-$color-dark-2: #d1d1d1;
+$color-dark-2: #ec4d37;
 $color-dark-p: #e1dedc;
-$color-dark-bg: #37474f;
+$color-dark-bg: #121212;
 $color-dark-bg-alt: #1b1b1b;
 $color-link-dark: #00203fff;
 $color-card-dark-bg: darken($color-dark-bg-alt, 3%);
 
 // colors client, special colors
-$color-client-1: rgb(107, 224, 185);
+$color-client-1: #f4f4f8;
 $color-client-2: #bc7fd4;
 $color-client-3: rgb(50, 136, 144);
 
@@ -49,7 +49,7 @@ $color-gradient: linear-gradient(120deg, rgb(49, 49, 49), #b4b4b4, #9b9b9b, #fff
 
 // svg colors
 $color-yellow: #ffc13b;
-$color-orange: #ff6e40;
+$color-orange: #ec4d37;
 $color-blue: #005A9C;
 $color-red: #EF3E42;
 $color-gray: #A5ACAF;
