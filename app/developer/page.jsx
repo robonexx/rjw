@@ -6,7 +6,7 @@ import OVERLAY from '/public/images/svg1.svg'
 
 import '../../styles/pages/Developer.scss'
 
-const Dev = () => {
+const Developer = () => {
 
    
   return (
@@ -20,4 +20,4 @@ const Dev = () => {
   )
 }
 
-export default Dev
+export default Developer
