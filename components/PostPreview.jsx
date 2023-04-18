@@ -6,7 +6,7 @@ const PostPreview = (props) => {
     return (
         <div  key={props.title} className='card'>
         <Link href={`/posts/${props.slug}`}>
-            <h2 >{props.title}</h2>
+            <h4>{props.title}</h4>
             <p>{props.subtitle}</p>
             <p>{props.date}</p>
         </Link>
