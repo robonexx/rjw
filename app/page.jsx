@@ -3,7 +3,7 @@ import getPostsData from '../data/getPostsData'
 import PostPreview from '../components/PostPreview';
 import Hero from '../components/hero/Hero';
 
-const HomePage = ({lights}) => {
+const Home = ({lights}) => {
 
     const postData = getPostsData()
     const postPreviews = postData.map((post) => (
@@ -51,4 +51,4 @@ const HomePage = ({lights}) => {
     )
 }
 
-export default HomePage;
+export default Home;

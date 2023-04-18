@@ -6,9 +6,9 @@ import OVERLAY from '/public/images/svg1.svg'
 
 import '../../styles/pages/Developer.scss'
 
-const DeveloperPage = ({lights}) => {
+const Dev = () => {
 
-    console.log(lights)
+   
   return (
       <div className='dev'>
           {/* <div className="bg" ></div> */}
@@ -20,4 +20,4 @@ const DeveloperPage = ({lights}) => {
   )
 }
 
-export default DeveloperPage
+export default Dev
