@@ -8,7 +8,7 @@ export const NavContent = [
   {
     title: 'About',
     newtitle: '- Me, Mysefl & I',
-    url: '/',
+    url: '/about',
     id: 2,
   },
   {

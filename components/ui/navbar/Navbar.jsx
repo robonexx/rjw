@@ -7,7 +7,7 @@ import { NavContent } from './NavContent';
 import './Navbar.scss';
 
 const variants = {
-  hidden: { opacity: 0, x: -200, y: 0 },
+  hidden: { opacity: 0, x: 1200, y: -1000 },
   animate: {
     opacity: 1,
     x: 0,

@@ -1,9 +1,8 @@
 @use '../../styles/base' as *;
 
 .hero {
-    margin: 0 auto 0;
+    margin: 0 auto;
     position: relative;
-    width: 100%;
     min-height: 80vh;
     display: flex;
     flex-direction: column;

@@ -127,7 +127,7 @@ const SideScroll = (e) => {
         onDragStart={onDragStart}
         onDrag={onDrag}
         onDragEnd={onDragEnd}
-        dragElastic={0.000001} // needs to be > 0 ¯\_(ツ)_/¯
+        dragElastic={0.000001} // needs to be > 0
       >
         <SideScrollItem content={_.content} speed={speed} />
         <SideScrollItem content={_.content} speed={speed} />

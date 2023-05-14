@@ -3,6 +3,7 @@
 .lightmode {
     background-color: $color-bg-alt;
     color: $color-1;
+    transition: all 0.5s ease-in-out;
 
     h1 {
         color: $color-1;
@@ -38,6 +39,7 @@
 
     background-color: $color-dark-bg-alt;
     color: $color-dark-1;
+    transition: all 0.5s ease-in-out;
 
     h1 {
         color: $color-dark-1;

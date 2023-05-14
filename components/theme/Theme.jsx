@@ -7,7 +7,7 @@ import "./Theme.scss";
 export default function Theme({ lights, setLights }) {
   /* const [lights, setLights] = useState(false) */
 
-  const { x } = useSpring({ duration: 300, x: lights ? 1 : 0 });
+  const { x } = useSpring({ duration: 600, x: lights ? 1 : 0 });
   const themeRef = useRef();
 
   const toggleLights = () => {
